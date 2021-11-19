@@ -336,3 +336,59 @@ font-size: 120%;
 .main_article{
     text-align: center;
 }    
+
+.admin-article{
+    padding-top: 75px;
+}
+.admin-article h2{
+    font-size: 30px;
+    text-align: center;
+}
+.admin-article p{
+    margin-bottom: 25px;
+}
+.admin-article a{
+    font-size: 20px;
+    color: #000;
+}
+
+.login-main{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#input_tgname {
+    display: block;
+    width: 20%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .login-main .button {
+
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 7%;
+    padding: 3px 7px 5px;
+    text-rendering: auto;
+    color: initial;
+    display: inline-block;
+    text-align: start;
+    margin-top: 1%;
+    font: 400 11px system-ui;
+}
