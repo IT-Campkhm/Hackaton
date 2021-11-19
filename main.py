@@ -24,10 +24,5 @@ def audiosstore():
 def path_audios():
     return audios.get_path_audios()
 
-
-
-
-
-
 eel.init(r'./')
 eel.start('index.html', size = (700, 700), mode = 'chrome')
