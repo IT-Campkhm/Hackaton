@@ -21,6 +21,10 @@ header .wrapper{
     display: flex;
     justify-content: space-between;
 }
+a{
+    text-decoration: none;
+    color: #f5f8fa;
+}
 .menu-bmt{
     cursor: pointer;
 }
@@ -209,10 +213,12 @@ li{
     color: #f5f8fa;
     background: linear-gradient(-90deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../img/index-bg.png"); 
     background-position: center;
+    background-size: cover; 
 }
 .book-article .index-gradient{
     background: linear-gradient(-90deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url("../img/book-bg.png"); 
     background-position: center;
+    background-size: cover; 
 }
 .podcast-article .index-gradient{
     background: linear-gradient(-90deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url("../img/podcast-bg.png");
@@ -289,6 +295,7 @@ li{
 /* --------------------------------about us---------------------------------- */
 .main-person{
     padding-top: 0;
+    text-align: center;
 }
 .main-person .index-gradient{
     padding: 150px 0;
