@@ -163,6 +163,7 @@ article{
     margin-bottom: 75px;
     padding-bottom: 75px;
     box-shadow: 0 2px  rgba(0,0,0,.1);
+
 }
 article:last-child{
     margin-bottom: 0;
@@ -179,7 +180,9 @@ article:last-child{
     margin-bottom: 50px;
 }
 .detailed-text{ 
-    text-align: right; 
+    text-align: center; 
+    padding-top: 5%;
+    font-size: 110%;
 }
 li{
     list-style: none;
@@ -266,6 +269,7 @@ li{
 }
 .goods-conteiner{
     box-sizing: border-box;
+    margin: 0 auto;
 }
 .good{
     display: inline-block;
@@ -280,7 +284,7 @@ li{
 }
 .good-img{
     display: inline-block;
-    max-width: 250px;
+    widows: 100%;
     margin: 0 auto;
     object-fit: cover;
 }
@@ -317,9 +321,18 @@ li{
     width: 60%;
 }
 .about-us-img{
-    width: 150px;
+    width: 250px;
 }
 .about-us-img img{
     object-fit: cover;
     width: 100%;
 }
+.citata{
+font-size: 120%;
+}
+.avtor_citata{
+    font-family: cursive;
+}
+.main_article{
+    text-align: center;
+}    
