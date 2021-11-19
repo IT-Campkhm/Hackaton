@@ -26,5 +26,8 @@ def path_audios():
 
 
 
+
+
+
 eel.init(r'./')
 eel.start('index.html', size = (700, 700), mode = 'chrome')
